@@ -1,0 +1,39 @@
+# Core
+openai>=1.30.0
+chromadb>=0.5.0
+chainlit>=1.1.0
+
+# Document processing
+pymupdf>=1.24.0          # PDF: text + image extraction
+python-docx>=1.1.0       # DOCX
+python-pptx>=0.6.23      # PPTX
+openpyxl>=3.1.0          # Excel
+pandas>=2.1.0            # CSV + Excel tabular handling
+tabulate>=0.9.0          # Required by pandas.to_markdown()
+
+# Web scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# Image handling
+Pillow>=10.0.0
+
+# Text chunking
+langchain-text-splitters>=0.2.0
+
+# PII detection & redaction
+presidio-analyzer>=2.2.0
+presidio-anonymizer>=2.2.0
+spacy>=3.7.0
+# After install run: python -m spacy download en_core_web_lg
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+tiktoken>=0.7.0
+
+# RAGAS evaluation
+ragas==0.1.21
+langchain-openai>=0.1.0
+datasets>=2.14.0
